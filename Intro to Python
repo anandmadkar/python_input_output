@@ -1,0 +1,15 @@
+# Declare and Assign Variables in python
+
+int_var = 10
+float_var = 12.5
+string_var = "Welcome to Python"
+bool_var = True   
+
+
+# Function in Python for Output
+
+print('Hello Anand')
+print('Value of int_var = ',int_var,'result')
+print('Value of float_var = ',float_var,'result')
+print('Value of string_var = ',string_var)
+print('Value of bool_var = ',bool_var,'result')
