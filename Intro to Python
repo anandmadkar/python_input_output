@@ -13,3 +13,26 @@ print('Value of int_var = ',int_var,'result')
 print('Value of float_var = ',float_var,'result')
 print('Value of string_var = ',string_var)
 print('Value of bool_var = ',bool_var,'result')
+
+# How to do the type casting ??
+
+int_var = int_var + 10
+
+casted_int_var = float(int_var)
+print("Int to Float Typecasting for int_var = ",casted_int_var )
+
+casted_float_var = int(float_var)
+print("Float to Int Typecasting for float_var = ",casted_float_var )
+
+# How to take the inputs
+
+name = input()
+age = input()
+print("User name = ",name )
+print("User age = ",age )
+
+# Another way to write inputs
+name = input('Name of User = ')
+Age = input('Age of User = ')
+print(name)
+print(age)
